@@ -2,7 +2,7 @@ const Footer = () => (
   <div style={{ paddingBottom: '24px' }}>
     <aside className="container banner">
       <p className="post-text">
-        You’ve reached the end, why not{' '}
+        You’ve reached the end here, why not{' '}
         <a href="https://hackclub.com/slack/">share your own making journey?</a>
       </p>
       <style jsx>{`
