@@ -16,16 +16,16 @@ const Header = ({ reactions, children }) => (
   <>
     <Meta
       as={Head}
-      name="Hack Club Scrapbook"
+      name="mpythonboard scrapbook"
       title="Home"
-      description="A daily streak system & portfolio for your projects. Join the Hack Club community of high school hackers & get yours started."
+      description="A daily streak learning micropython. Join the 32 changemaker community of high school Educators & get started."
       image="https://cloud-53i932gta-hack-club-bot.vercel.app/0scrapbook.jpg"
     />
     <header>
       {children}
-      <h1>Hack Club’s Scrapbook</h1>
+      <h1>Mpythonboard</h1>
       <p>
-        A daily diary of what <a href="https://hackclub.com/">Hack Clubbers</a>{' '}
+        A daily diary of what <a href="https://mpythonboard.com/">Changemakers</a>{' '}
         are learning & making{' '}
         <Link href="/streaks" passHref legacyBehavior>
           <a>every day</a>
